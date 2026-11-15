@@ -9,6 +9,7 @@ Walkdiff is a review companion for GitHub pull requests and GitLab merge request
 | [Troubleshooting](troubleshooting.md) | Something failed, or a report looks wrong |
 | [Running a pilot](pilot.md) | You want to set up CI and try Walkdiff with your team |
 | [Adding a language](adding-a-language.md) | You want Walkdiff to read another language |
+| [Adding a check](adding-a-check.md) | You want the review to look for something new |
 | [Security policy](../SECURITY.md) | You want to know what Walkdiff guarantees, or need to report a vulnerability |
 
 The [project README](../README.md) describes everything the report shows and how Walkdiff works inside.
