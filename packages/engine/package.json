@@ -10,7 +10,7 @@
     "@walkdiff/review-model": "workspace:*",
     "graphql": "17.1.0",
     "jscpd": "5.4.3",
-    "oxlint": "1.93.0",
+    "oxlint": "1.94.0",
     "smol-toml": "^1.9.1",
     "tree-sitter-c": "^0.24.1",
     "tree-sitter-c-sharp": "^0.23.5",
