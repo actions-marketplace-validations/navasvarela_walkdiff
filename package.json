@@ -1,6 +1,6 @@
 {
   "name": "walkdiff",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "private": true,
   "license": "FSL-1.1-ALv2",
   "type": "module",
@@ -13,14 +13,15 @@
     "build:package": "pnpm -s build:ui && node scripts/buildPackage.ts",
     "walkdiff": "pnpm -s build:ui > /dev/null && node packages/cli/src/main.ts",
     "build:ui": "pnpm --filter @walkdiff/report-ui --filter @walkdiff/app-ui build",
-    "typecheck": "tsc -p tsconfig.json && tsc -p packages/report-ui/tsconfig.json && tsc -p packages/app-ui/tsconfig.json",
+    "build:vscode": "pnpm --filter walkdiff-vscode build",
+    "typecheck": "tsc -p tsconfig.json && tsc -p packages/report-ui/tsconfig.json && tsc -p packages/app-ui/tsconfig.json && tsc -p packages/vscode/tsconfig.json",
     "lint": "oxlint --deny-warnings",
     "test": "vitest run"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
-    "oxlint": "1.92.0",
-    "rolldown": "1.3.0",
+    "oxlint": "1.93.0",
+    "rolldown": "1.3.2",
     "typescript": "^7.0.2",
     "vitest": "^5.0.5"
   }
